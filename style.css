@@ -1,0 +1,603 @@
+body {
+    margin: 0px atuo;
+    height:100vh;
+    background: radial-gradient(57.64% 59.04% at 50% 50%, #002CB7 49.48%, #CAE9FF 58.85%, #005FB7 70.83%, #CAE9FF 81.04%, #006CB7 84.5%, #006CB7 84.85%, #CAE9FF 84.91%, #00FFF1 100%); 
+    background-attachment: fixed;
+  }
+
+.mockup_front{
+    position: absolute;
+    width: 562px;
+    height: 657px;
+    left: 50%;
+    top: 135px;
+    background: url(snv_mockup_fornt3_1.png);
+    background-repeat:no-repeat;
+    background-size:cover;  
+    transform: translate(-50%,0%);
+}
+
+.mockup_front:hover{
+    position: absolute;
+    width: 562px;
+    height: 657px;
+    background: url(snv_mockup_back_1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.부제{
+    position: absolute;
+    width: 627px;
+    height: 20px;
+    top: 869px;
+    left: 50%;
+    transform: translate(-50%,0%);
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.backname{
+    position: fixed;
+    width: 931px;
+    height: 45px;
+    left: 95px;
+    top: 25px;
+
+    font-family: Comic Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+}
+
+.arrow{
+    position: fixed;
+    left: 50px;
+    top: 27px;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.arrow:hover {
+    cursor:pointer;
+}
+
+.text{
+    position: absolute;
+    width: 56%;
+    left : 50%;
+    top: 880px;
+    transform: translate(-50%,0%);
+    top: 980px;
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 173%;
+    /* or 24px */
+
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+    padding-bottom: 200px;
+    z-index:1;
+}
+
+h {
+    font-family: Comic Neue;
+    font-style: normal; 
+    font-weight: normal;
+  }
+  
+  .숙제, .그림, .세권, .콜로서스, .콜로서스2, .토르, .금속, .남극2, .울버린, .유전자, .비브라늄, .엑스맨, .체르노빌, .찰스, .방패, .밀론, .상처, .울트론, .블랙팬서, .전투기, .호크아이, .트라이, .스파이더맨, .센티넬, .바이오닉, .미스티, .남극, .바보, .책등, .제목, .파란 {
+    text-decoration: underline; 
+    text-underline-position: under;
+  } 
+
+  .숙제, .그림, .세권, .콜로서스, .콜로서스2, .토르, .금속, .남극2, .울버린, .유전자, .비브라늄, .엑스맨, .체르노빌, .찰스, .방패, .밀론, .상처, .울트론, .블랙팬서, .전투기, .호크아이, .트라이, .스파이더맨, .센티넬, .바이오닉, .미스티, .남극, .바보, .책등, .제목, .파란 {
+    cursor:pointer;
+  }
+
+.숙제i {
+    position:fixed;
+    width: 1384px;
+    height: 576px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.세권i{
+    position:fixed;
+    width: 543px;
+    height: 233px;
+    top:0px;
+    right: 100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.콜로서스i{
+    position:fixed;
+    width: 1384px;
+    height: 576px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.콜로서스2i{
+    position:fixed;
+    width: 674px;
+    height: 1030px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.금속i{
+    position:fixed;
+    width: 498px;
+    height: 216px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.남극i{
+    position:fixed;
+    width: 950px;
+    height: 723px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+    text-align:center;
+}
+
+.남1{
+    width: 471px;
+    height: 723px;
+    max-width:70%;
+    height:auto;
+    margin-right:-5px;
+}
+
+.남2{
+    width: 471px;
+    height: 723px;
+    max-width:70%;
+    height:auto;
+}
+
+.울버린i{
+    position:fixed;
+    width: 151px;
+    height: 64px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.토르i{
+    position:fixed;
+    width: 221px;
+    height: 92px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.유전자i{
+    position:fixed;
+    width: 389px;
+    height: 531px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.비브라늄i{
+    position:fixed;
+    width: 750px;
+    height: 368px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+    text-align:center;
+}
+
+.비1{
+    width: 367px;
+    height: 364px;
+    max-width:70%;
+    height:auto;
+    margin-right:-5px;
+}
+
+.비2{
+    width: 367px;
+    height: 364px;
+    max-width:70%;
+    height:auto;
+}
+
+.엑스맨i{
+    position:fixed;
+    width: 600px;
+    height: 375px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.체르노빌i{
+    position:fixed;
+    width: 600px;
+    height: 490px;
+    left : 50%;
+    top:100%;
+    text-align: center;
+    transform: translate(-50%,0%);
+    max-width:140%;
+    height: auto;
+    z-index:2;
+    pointer-events: none; 
+}
+
+.체i{
+    width: 600px;
+    height: 375px;
+    max-width:60%;
+    height: auto;
+}
+
+.설명{
+    position:relative;
+    top:-5px;
+    display: inline-block;
+    width: 600px;
+    height: 110px;
+    background: rgba(0, 0, 0, 0.7);
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 172%;
+    /* or 17px */
+    max-width:60%;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.55);
+}
+
+.찰스i{
+    position:fixed;
+    width: 1384px;
+    height: 588px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.방패i{
+    position:fixed;
+    width: 399px;
+    height: 407px; 
+    top:600%;
+    left : 38%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+
+.밀론i{
+    position:fixed;
+    width: 620px;
+    height: 916px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.상처i{
+    position:fixed;
+    width: 418px;
+    height: 174px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.울트론i{
+    position:fixed;
+    width: 366px;
+    height: 859px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.블랙팬서i{
+    position:fixed;
+    width: 627.56px;
+    height: 592px;
+    bottom:0px;
+    right : 100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.전투기i{
+    position:fixed;
+    width: 500px;
+    height: 200px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.호크아이i{
+    position:fixed;
+    width: 500px;
+    height: 200px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.트라이i{
+    position:fixed;
+    width: 1211px;
+    height: 1261px;
+    top:100%;
+    right:0px;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.스파이더맨i{
+    position:fixed;
+    width: 1030px;
+    height: 376px;
+    top:100%;
+    left:50%;
+    transform: translate(-50%,0%);
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+    text-align:center;
+}
+
+.스1{
+    width: 242px;
+    height: 378px;
+    max-width:60%;
+    margin-right:-5px;
+}
+
+.스2{
+    width: 781px;
+    height: 378px;
+    max-width:60%;
+}
+
+.센티넬i{
+    position:fixed;
+    width: 765px;
+    height: 378px;
+    top:100%;
+    left:50%;
+    transform: translate(-50%,0%);
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.바이오닉i{
+    position:fixed;
+    width: 621px;
+    height: 312px;
+    top:100%;
+    left:50%;
+    transform: translate(-50%,0%);
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.미스티i{
+    position:fixed;
+    width: 520px;
+    height: 820px;
+    top:100%;
+    left:50%;
+    transform: translate(-50%,0%);
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+    text-align:center;
+}
+
+.미1{
+    width: 507px;
+    height: 551px;
+    max-width:80%;
+    height: auto;
+    margin-bottom:-5px;
+}
+
+.미2{
+    width: 507px;
+    height: 260px;
+    max-width:80%;
+    height: auto;
+}
+
+.남극2i{
+    position:fixed;
+    width: 532px;
+    height: 816px;
+    top:100%;
+    left:50%;
+    transform: translate(-50%,0%);
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+
+}
+
+.바보i{
+    position:fixed;
+    width: 905px;
+    height: 588px;
+    top:100%;
+    left:50%;
+    transform: translate(-50%,0%);
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.책등i{
+    position:fixed;
+    width: 500.5px;
+    height: 75px;
+    top:0px;
+    right:100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.제목i{
+    position:fixed;
+    width: 628px;
+    height: 74px;
+    top:0px;
+    right:100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.파란i{
+    position:fixed;
+    width: 507px;
+    height: 76px;
+    top:0px;
+    right:100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.그림i{
+    position:fixed;
+    width: 440px;
+    height: 628px;  
+    top:0px;
+    right:100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
