@@ -5,30 +5,41 @@ body {
     background-attachment: fixed;
   }
 
-.mockup_front{
+.mockup{
     position: absolute;
     width: 562px;
-    height: 657px;
-    left: 50%;
+    max-width:90%;
+    height:auto;
+    left: 52%;
     top: 135px;
-    background: url(snv_mockup_fornt3_1.png);
-    background-repeat:no-repeat;
-    background-size:cover;  
     transform: translate(-50%,0%);
 }
 
-.mockup_front:hover{
+.mockup_front{
     position: absolute;
     width: 562px;
-    height: 657px;
-    background: url(snv_mockup_back_1.png);
-    background-repeat:no-repeat;
-    background-size:cover;
+    max-width:90%;
+    height:auto;
+    text-align:center;
+}
+
+.mockup_inside{
+    position: absolute;
+    width: 562px;
+    max-width:90%;
+    height:auto;
+    text-align:center;
+    opacity:0;
+    z-index:2;
+}
+
+.mockup:hover .mockup_inside{
+    opacity:1;
 }
 
 .부제{
     position: absolute;
-    width: 627px;
+    width: 60%;
     height: 20px;
     top: 869px;
     left: 50%;
@@ -46,9 +57,27 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+@media screen and (max-width:600px) {
+    .부제{
+      top: 520px;
+    }
+  }
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+    .부제{
+        top:780px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px){
+    .부제{
+        top:830px;
+    }
+}
+
 .backname{
     position: fixed;
-    width: 931px;
+    width: 70%;
     height: 45px;
     left: 95px;
     top: 25px;
@@ -62,6 +91,14 @@ body {
     color: #FFFFFF;
 }
 
+@media screen and (max-width:600px) {
+    .backname{
+      left:70px;
+      font-size:25px;
+      line-height: 35px;
+    }
+  }
+
 .arrow{
     position: fixed;
     left: 50px;
@@ -69,6 +106,12 @@ body {
     font-size: 36px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width:600px) {
+    .arrow{
+      left:27px;
+    }
+  }
 
 .arrow:hover {
     cursor:pointer;
@@ -97,11 +140,25 @@ body {
     z-index:1;
 }
 
-h {
-    font-family: Comic Neue;
-    font-style: normal; 
-    font-weight: normal;
+@media screen and (max-width:600px) {
+    .text{
+      font-size: 15px;
+      width: 75%;
+      top:610px;
+    }
   }
+
+  @media screen and (min-width: 600px) and (max-width: 900px){
+    .text{
+        top:900px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px){
+    .text{
+        top:910px;
+    }
+}
   
   .숙제, .그림, .세권, .콜로서스, .콜로서스2, .토르, .금속, .남극2, .울버린, .유전자, .비브라늄, .엑스맨, .체르노빌, .찰스, .방패, .밀론, .상처, .울트론, .블랙팬서, .전투기, .호크아이, .트라이, .스파이더맨, .센티넬, .바이오닉, .미스티, .남극, .바보, .책등, .제목, .파란 {
     box-shadow: inset 0 -1px 0 white; 
