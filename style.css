@@ -1,6 +1,6 @@
 body {
     margin: 0px atuo;
-    height:100vh;
+    min-height:100vh;
     background: radial-gradient(57.64% 59.04% at 50% 50%, #002CB7 49.48%, #CAE9FF 58.85%, #005FB7 70.83%, #CAE9FF 81.04%, #006CB7 84.5%, #006CB7 84.85%, #CAE9FF 84.91%, #00FFF1 100%); 
     background-attachment: fixed;
   }
