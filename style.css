@@ -13,6 +13,7 @@ body {
     left: 52%;
     top: 135px;
     transform: translate(-50%,0%);
+    text-align: center;
 }
 
 .mockup_front{
@@ -21,6 +22,7 @@ body {
     max-width:90%;
     height:auto;
     text-align:center;
+    left:-7%;
 }
 
 .mockup_inside{
@@ -30,6 +32,7 @@ body {
     height:auto;
     text-align:center;
     opacity:0;
+    left:-7%;
     z-index:2;
 }
 
@@ -38,19 +41,18 @@ body {
 }
 
 .부제{
+    text-align: center;
     position: absolute;
-    width: 60%;
+    width: 78%;
     height: 20px;
-    top: 869px;
-    left: 50%;
-    transform: translate(-50%,0%);
+    top:650px;
 
     font-family: Apple SD Gothic Neo;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    text-align: center;
+    
 
     color: #FFFFFF;
 
@@ -59,28 +61,26 @@ body {
 
 @media screen and (max-width:600px) {
     .부제{
-      top: 520px;
+      top: 420px;
     }
   }
 
 @media screen and (min-width: 700px) and (max-width: 900px){
     .부제{
-        top:780px;
+        top:630px;
     }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1100px){
     .부제{
-        top:830px;
+        top:650px;
     }
 }
 
-.backname{
+h1{
     position: fixed;
-    width: 70%;
-    height: 45px;
     left: 95px;
-    top: 25px;
+    top: -4px;
 
     font-family: Comic Neue;
     font-style: normal;
@@ -92,10 +92,11 @@ body {
 }
 
 @media screen and (max-width:600px) {
-    .backname{
+    h1{
       left:70px;
       font-size:25px;
       line-height: 35px;
+      top:10px;
     }
   }
 
@@ -117,13 +118,12 @@ body {
     cursor:pointer;
 }
 
-.text{
+#text{
     position: absolute;
     width: 56%;
     left : 50%;
-    top: 880px;
     transform: translate(-50%,0%);
-    top: 980px;
+    top:900px;
 
     font-family: Apple SD Gothic Neo;
     font-style: normal;
@@ -141,34 +141,40 @@ body {
 }
 
 @media screen and (max-width:600px) {
-    .text{
+    #text{
       font-size: 15px;
       width: 75%;
-      top:610px;
+      top:710px;
     }
   }
 
   @media screen and (min-width: 600px) and (max-width: 900px){
-    .text{
+    #text{
         top:900px;
     }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1100px){
-    .text{
-        top:910px;
+    #text{
+        top:950px;
     }
 }
   
-  .숙제, .그림, .세권, .콜로서스, .콜로서스2, .토르, .금속, .남극2, .울버린, .유전자, .비브라늄, .엑스맨, .체르노빌, .찰스, .방패, .밀론, .상처, .울트론, .블랙팬서, .전투기, .호크아이, .트라이, .스파이더맨, .센티넬, .바이오닉, .미스티, .남극, .바보, .책등, .제목, .파란 {
+
+i{
+    font-family: Comic Neue;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.숙제, .그림, .세권, .콜로서스, .콜로서스2, .토르, .금속, .남극2, .울버린, .유전자, .비브라늄, .엑스맨, .체르노빌, .찰스, .방패, .밀론, .상처, .울트론, .블랙팬서, .전투기, .호크아이, .트라이, .스파이더맨, .센티넬, .바이오닉, .미스티, .남극, .바보, .책등, .제목, .파란 {
     box-shadow: inset 0 -1px 0 white; 
     line-height: 21px;
-
   } 
 
 
   
-  .숙제, .그림, .세권, .콜로서스, .콜로서스2, .토르, .금속, .남극2, .울버린, .유전자, .비브라늄, .엑스맨, .체르노빌, .찰스, .방패, .밀론, .상처, .울트론, .블랙팬서, .전투기, .호크아이, .트라이, .스파이더맨, .센티넬, .바이오닉, .미스티, .남극, .바보, .책등, .제목, .파란 {
+.숙제, .그림, .세권, .콜로서스, .콜로서스2, .토르, .금속, .남극2, .울버린, .유전자, .비브라늄, .엑스맨, .체르노빌, .찰스, .방패, .밀론, .상처, .울트론, .블랙팬서, .전투기, .호크아이, .트라이, .스파이더맨, .센티넬, .바이오닉, .미스티, .남극, .바보, .책등, .제목, .파란 {
     cursor:pointer;
   }
 
